@@ -1,0 +1,60 @@
+{% extends 'index.html' %} 
+{% block 'body' %}
+<ul id="infoList">
+	<li>
+		<b>&lt;Sobre&gt;</b> <br>
+		<ul>
+			<li>Estudante de Sistemas de Informação,</li>
+			<li>Centro de Informática - UFPE,</li>
+			<li>Code++,</li>
+			<li>Meu GIF:
+				<img width="25%" height="25%" src="https://68.media.tumblr.com/8b0fae7f6e3c5fae7d2be4d5172eeb6e/tumblr_ng2isjmwuf1s9i49io1_500.gif">
+			</li>
+		</ul>
+		<b>&lt;/Sobre&gt;</b>
+	</li>
+	<br>
+	<li>
+	 	<b>&lt;Game&gt;</b>
+	 	<ul>
+	 		<button id="button-atr">Jogo Estoura Balão JS Edition: </button>
+	 		<a href="http://cin.ufpe.br/~cmpm/balao">
+	 			<img width="10%" height="10%" src="{% static 'imgs/icons/ballon.svg' %}" title="Clica em mim! Pfvr!">
+	 		</a>
+	 	</ul>
+	 	<b>&lt;/Game&gt;</b>
+	</li>
+	<br>
+	<li>
+		<b>&lt;Skills&gt;</b>
+		<ul>
+			<li>- HTML5,</li>
+			<li>- JavaScript,</li>
+			<li>- jQuery,</li>
+			<li>- PHP,</li>
+			<li>- SQL,</li>
+			<li>- Java,</li>
+			<li>- Python;</li>
+		</ul>
+		<b>&lt;/Skills&gt;</b>
+	</li>
+	<br>
+	<li>
+		<b>&lt;YouTube&gt;</b>
+		<ul>
+			<iframe width="500" height="265" src="https://www.youtube.com/embed/eaGpdhienMk" frameborder="0" allowfullscreen></iframe>
+		</ul>
+		<b>&lt;/YouTube&gt;</b>
+	</li>
+	<br>
+	<li>
+		<b>&lt;Spotify&gt;</b>
+		<ul>
+			<li>
+				<a href="https://open.spotify.com/user/12160544225"><img alt="Spotify" class="icons-spot" src="{% static 'imgs/icons/spotify.png' %}"></a>
+			</li>
+		</ul>
+		<b>&lt;/Spotify&gt;</b>
+	</li>
+ </ul>
+{% endblock %}

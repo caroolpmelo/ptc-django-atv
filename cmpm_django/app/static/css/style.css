@@ -1,0 +1,71 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+}
+h1 {
+	font-size: 50px;
+	margin-bottom: 35px;
+}
+/*General Columns*/
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 auto;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+/*First Column*/
+.flex-container-infos {
+	flex: 1;	
+	flex-grow: 1;
+	background: #B03060;
+	/*#9370DB*/
+	padding: 15px;
+	color: #F0F8FF;
+	text-align: center;
+}
+/*Second Column*/
+.flex-container-pag {
+	flex: 2.5;
+	background: #778899;
+	padding: 15px;
+	color: #F0F8FF;
+}
+/*Social Icons size*/
+.icons {
+	max-width: 10%;
+	max-height: 10%;
+	margin: 7px;
+}
+.icons-little {
+	max-width: 8%;
+	max-height: 8%;
+	vertical-align: middle;
+}
+.icons-spot {
+	max-width: 7%;
+	max-height: 7%;
+}
+/*Profile Photo size*/
+.profile-photo {
+	max-height: 65%;
+	max-width: 65%;
+	border-radius: 50%; /*round photo*/
+}
+.div-photo {
+	margin-bottom: 25px;
+}
+#infoList li {
+	list-style-type: none;
+}
+#button-atr {
+	background-color: #B03060;
+	border: none;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a, a:link, a:visited, a:hover, a:focus,a:active {
+	color: inherit;
+	text-decoration: none;
+}
